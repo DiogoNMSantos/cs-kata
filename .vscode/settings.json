@@ -1,0 +1,4 @@
+{
+  "dotnet.defaultSolution": "cs-kata.sln",
+  "cmake.configureOnOpen": true
+}

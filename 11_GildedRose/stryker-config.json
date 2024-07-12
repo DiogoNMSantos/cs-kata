@@ -1,0 +1,9 @@
+{
+  "stryker-config": {
+    "reporters": ["progress", "cleartext", "html", "cleartexttree"],
+    "thresholds": { "high": 80, "low": 70, "break": 60 },
+    "mutate": ["kata.cs"],
+    "ignore-mutations": ["string", "Logical operators"],
+    "verbosity": "info"
+  }
+}
